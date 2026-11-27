@@ -8,7 +8,7 @@ The hardest part, the **Bluetooth handshake**, took nearly two months to solve. 
 
 > **Support scope:** Purpose-built for French cars (Peugeot/Citroen) with Hangsheng big-blue-screen head units, especially the Citroen C5 X. Other vehicles are untested and unsupported; there are no plans to add brand-specific support.
 
-[Download & website](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/) · [Releases](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/releases) · [Report a problem](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
+[Website](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/) · [Build from source](docs/BUILD.md) · [Report a problem](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
 
 ![JSPLAY home](site/assets/home.png)
 
@@ -57,8 +57,8 @@ The website is available in English, Arabic, Russian, Ukrainian, Spanish and Sim
 
 Based on [xcertplay](https://github.com/shilapi/xcertplay), GPL-3.0. The home/settings UI and website adapt [DiAuto](https://github.com/shihabal3amri/DiAuto), AGPL-3.0; that license is included in `docs/licenses`. Preserve those notices when distributing modifications. CarPlay and its icon belong to Apple Inc.; no Apple or BYD affiliation or endorsement is implied.
 
-This repository starts with a clean public source snapshot. Local research, tester reports and release-signing secrets are excluded. The complete source corresponding to the APK is provided with every release; experimental runtime identity assets are described separately in the build instructions and notices.
+This repository provides a clean public source snapshot. Local research, tester reports, signing keys and installation packages are not distributed. Build the app locally from source using the [build guide](docs/BUILD.md); experimental runtime identity assets are described separately in the build instructions and notices.
 
 ## Local release packaging
 
-The release APK intentionally contains the experimental accessory identity. The Git repository and source archive exclude all accessory and Android signing keys; tests generate synthetic identities at runtime. Source/CI builds omit runtime identity assets by default. Local release builds explicitly select an external asset directory. Publishing the APK makes its bundled identity extractable; building locally does not preserve that identity's confidentiality.
+This repository excludes all accessory and Android signing keys; tests generate synthetic identities at runtime. Source/CI builds omit runtime identity assets by default. Local builds explicitly select an external asset directory when an identity is supplied. No installation package is published here.

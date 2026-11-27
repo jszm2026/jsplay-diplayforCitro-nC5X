@@ -8,8 +8,8 @@ SITE = ROOT / 'site'
 data = json.loads((SITE / 'content.json').read_text())
 BASE = 'https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/'
 REPO = 'https://github.com/jszm2026/jsplay-diplayforCitro-nC5X'
-RELEASE = REPO + '/releases'
-DOWNLOAD = REPO + '/releases'
+RELEASE = REPO + '/blob/main/docs/BUILD.md'
+DOWNLOAD = REPO + '/blob/main/docs/BUILD.md'
 for lang, d in data.items():
     folder = SITE if lang == 'en' else SITE / lang
     folder.mkdir(exist_ok=True)

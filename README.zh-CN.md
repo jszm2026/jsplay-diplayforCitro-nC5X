@@ -6,7 +6,7 @@
 
 > 本项目专为法系车（标致/雪铁龙）搭载航盛大蓝屏的车机定制适配，重点车型为凡尔赛 C5 X。其他车型未经测试，不在支持范围内，也没有增加品牌适配的计划。
 
-[下载与中文网站](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/zh-Hans/) · [完整说明](README.md) · [报告问题](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
+[中文网站](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/zh-Hans/) · [从源码构建](docs/BUILD.md) · [报告问题](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
 
 0.2.9 为公开预览版，未经 Apple 认证。请安装在车机上，而非 iPhone。无需越狱、转接盒或认证服务器。无线连接支持车载热点或 Wi-Fi Direct（后者需要 Android 10 或更高版本）。
 
@@ -21,4 +21,4 @@
 
 标准导航小组件需要支持 Android 小组件的启动器；比亚迪内置主页不接受任意小组件。悬浮地图和嵌入地图需要启用“CarPlay 仪表地图”。开发示例仅在源代码中提供。
 
-认证使用由本地发布流程注入的实验性配件身份，不是 Apple 官方签发的 MFi 凭据，无法保证未来持续可用。部分车机仍可能卡顿或无法应用图标大小设置。应用界面支持英语、简体中文、阿拉伯语、俄语、乌克兰语和西班牙语。源代码、构建说明及许可证随版本提供。
+认证使用由本地发布流程注入的实验性配件身份，不是 Apple 官方签发的 MFi 凭据，无法保证未来持续可用。部分车机仍可能卡顿或无法应用图标大小设置。应用界面支持英语、简体中文、阿拉伯语、俄语、乌克兰语和西班牙语。本仓库不提供安装包，请按构建说明从源码自行编译。
