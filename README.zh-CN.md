@@ -10,7 +10,9 @@
 
 [中文网站](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/zh-Hans/) · [从源码构建](docs/BUILD.md) · [报告问题](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
 
-0.2.9 为公开预览版，未经 Apple 认证。请安装在车机上，而非 iPhone。无需越狱、转接盒或认证服务器。无线连接支持车载热点或 Wi-Fi Direct（后者需要 Android 10 或更高版本）。
+当前构建版本：**JSplayV1.62**（versionCode 62，包名 `com.jsplay.com`）。
+
+公开预览版，未经 Apple 认证。请安装在车机上，而非 iPhone。无需越狱、转接盒或认证服务器。专为 **Android 4.4.3（API 19）航盛大蓝屏车机**适配，也就是法系车标致/雪铁龙（标雪）车机。无线连接使用车机自带热点或同一 WiFi 模式。
 
 - 可选在中控屏显示仪表地图悬浮卡片：拖动位置、双指缩放、点击打开 CarPlay。仪表地图继续显示；需允许显示在其他应用上层。
 - 改进地图缩放：放下双指时不再突然改变尺寸，达到最小或最大尺寸后反向缩放立即响应。

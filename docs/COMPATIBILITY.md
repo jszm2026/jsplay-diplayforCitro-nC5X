@@ -1,10 +1,10 @@
 # Compatibility
 
-This public preview is an independent receiver, not an Apple-certified CarPlay accessory. The experimental bundled accessory identity is extractable and its future acceptance is not guaranteed.
+This public preview is an independent receiver, not an Apple-certified CarPlay accessory. Current build: `JSplayV1.62` (versionCode 62). The offline authentication module is private property and not included; see the repository scope notice.
 
 | Area | Current scope |
 | --- | --- |
-| Head unit | Android 9+ APK; wireless Wi-Fi Direct path needs Android 10+ |
+| Head unit | Android 4.4.3 (API 19) Hangsheng blue-screen head units in French Peugeot/Citroen cars; wireless uses the car hotspot or same-Wi-Fi mode |
 | Phone | Standard, non-jailbroken iPhone with CarPlay enabled; device/iOS compatibility varies |
 | Physical evidence | Previous private builds: wired and wireless picture, touch and audio confirmed on the development car with iPhone XS / iOS 18.7.10 |
 | Other cars | Mixed community reports across DiLink generations; not a certified model support list |

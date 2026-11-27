@@ -9,7 +9,7 @@
     "download": "Build from source",
     "install": "How to install",
     "promise": "No jailbreak, dongle, account or authentication server required.",
-    "requires": "Install on the car, not the iPhone. Wireless uses the built-in car hotspot or Wi-Fi Direct (Android 10+). Compatibility depends on the head unit, firmware and iOS version.",
+    "requires": "Installed on the head unit, not the iPhone. Targets Android 4.4.3 (API 19) Hangsheng blue-screen head units in French Peugeot/Citroen cars. Wireless uses the car hotspot or same-Wi-Fi mode.",
     "gallery": "A familiar drive",
     "captions": [
       "The JSPLAY home screen with car-hotspot and same-Wi-Fi connection modes.",
@@ -47,7 +47,7 @@
     "feedback": "Report an issue",
     "privacy": "Privacy",
     "footer": "Independent project based on xcertplay, with interface design from DiAuto. Not affiliated with Apple, Stellantis or Hangsheng. CarPlay and its icon belong to Apple Inc.",
-    "supportScope": "Purpose-built for French cars (Peugeot/Citroen) with Hangsheng big-blue-screen head units, especially the Citroen C5 X. Other vehicles are untested and unsupported.",
+    "supportScope": "Purpose-built for Android 4.4.3 (API 19) Hangsheng blue-screen head units in French Peugeot/Citroen cars. Other vehicles and Android versions are untested and unsupported.",
     "authTitle": "Repository scope",
     "authText": "The offline authentication module is private property and is not included here. Only methods and interfaces are published, so developers who understand the stack can build an implementation that fits their own setup. The authentication client in the source tree illustrates the interface contract only; it contains no real identity or credentials. No installation package, signing key or accessory identity is distributed."
   },
@@ -61,7 +61,7 @@
     "download": "البناء من المصدر",
     "install": "طريقة التثبيت",
     "promise": "لا حاجة إلى جيلبريك أو قطعة خارجية أو حساب أو خادم مصادقة.",
-    "requires": "ثبّت التطبيق على شاشة السيارة، وليس الآيفون. يستخدم الاتصال اللاسلكي نقطة اتصال السيارة أو Wi-Fi Direct على أندرويد 10 فأحدث. يعتمد التوافق على الشاشة ونظامها وإصدار iOS.",
+    "requires": "يُثبّت على شاشة السيارة، وليس على الآيفون. يستهدف شاشات هانغشينغ الزرقاء بنظام Android 4.4.3 (API 19) في سيارات بيجو/سيتروين الفرنسية.",
     "gallery": "تجربة مألوفة",
     "captions": [
       "الشاشة الرئيسية لـ JSPLAY مع وضعي اتصال بنقطة hotspot للسيارة وsame-Wi-Fi.",
@@ -99,7 +99,7 @@
     "feedback": "الإبلاغ عن مشكلة",
     "privacy": "الخصوصية",
     "footer": "مشروع مستقل مبني على xcertplay وبتصميم واجهة من DiAuto. غير تابع لـ Apple أو Stellantis أو هانغشينغ. كار بلاي وأيقونته ملك لشركة Apple.",
-    "supportScope": "مصمم خصيصًا للسيارات الفرنسية (بيجو/سيتروين) المزودة بوحدات هانغشينغ ذات الشاشة الزرقاء الكبيرة، وخاصة سيتروين C5 X. المركبات الأخرى غير مختبرة وغير مدعومة.",
+    "supportScope": "مصمم خصيصًا لشاشات هانغشينغ الزرقاء بنظام Android 4.4.3 (API 19) في سيارات بيجو/سيتروين الفرنسية. المركبات وإصدارات أندرويد الأخرى غير مختبرة وغير مدعومة.",
     "authTitle": "نطاق المستودع",
     "authText": "وحدة المصادقة دون اتصال ملكية خاصة وغير مضمّنة هنا. ننشر الطرق والواجهات فقط، ليتمكن المطورون الذين يفهمون النظام من بناء تنفيذ يناسب إعداداتهم. عميل المصادقة في الشيفرة يوضّح عقد الواجهة فقط ولا يحتوي على هوية أو بيانات اعتماد حقيقية. لا يتم توزيع حزمة تثبيت أو مفتاح توقيع أو هوية ملحق."
   },
@@ -113,7 +113,7 @@
     "download": "Собрать из исходников",
     "install": "Как установить",
     "promise": "Без джейлбрейка, адаптера, аккаунта и сервера аутентификации.",
-    "requires": "Устанавливайте на головное устройство, а не на iPhone. Беспроводное подключение использует точку доступа автомобиля или Wi-Fi Direct (Android 10+). Совместимость зависит от устройства, прошивки и iOS.",
+    "requires": "Устанавливается на головное устройство, а не на iPhone. Предназначено для головных устройств Hangsheng с синим экраном на Android 4.4.3 (API 19) во французских автомобилях Peugeot/Citroen.",
     "gallery": "Знакомый интерфейс",
     "captions": [
       "Главный экран JSPLAY с режимами подключения через hotspot автомобиля и общий Wi-Fi.",
@@ -151,7 +151,7 @@
     "feedback": "Сообщить о проблеме",
     "privacy": "Конфиденциальность",
     "footer": "Независимый проект на базе xcertplay с дизайном интерфейса DiAuto. Не связан с Apple, Stellantis или Hangsheng. CarPlay и его значок принадлежат Apple Inc.",
-    "supportScope": "Создан специально для французских автомобилей (Peugeot/Citroen) с головными устройствами Hangsheng 'большой синий экран', особенно Citroen C5 X. Другие автомобили не проверены и не поддерживаются.",
+    "supportScope": "Создано специально для головных устройств Hangsheng с синим экраном на Android 4.4.3 (API 19) во французских автомобилях Peugeot/Citroen. Другие автомобили и версии Android не проверены и не поддерживаются.",
     "authTitle": "Область репозитория",
     "authText": "Модуль офлайн-аутентификации является частной собственностью и не включён сюда. Публикуются только методы и интерфейсы, чтобы разработчики, понимающие стек, создали реализацию под свою конфигурацию. Клиент аутентификации в исходниках лишь демонстрирует контракт интерфейса и не содержит реальной идентичности или учётных данных. Установочные пакеты, ключи подписи и идентичность аксессуара не распространяются."
   },
@@ -165,7 +165,7 @@
     "download": "Зібрати з джерел",
     "install": "Як встановити",
     "promise": "Без джейлбрейка, адаптера, облікового запису й сервера автентифікації.",
-    "requires": "Встановлюйте на автомобіль, а не на iPhone. Бездротове підключення працює через вбудовану точку доступу автомобіля або Wi-Fi Direct (Android 10+). Сумісність залежить від головного пристрою, прошивки й версії iOS.",
+    "requires": "Встановлюється на головний пристрій, а не на iPhone. Призначено для головних пристроїв Hangsheng із синім екраном на Android 4.4.3 (API 19) у французьких автомобілях Peugeot/Citroen.",
     "gallery": "Звична поїздка",
     "captions": [
       "Головний екран JSPLAY з режимами підключення через hotspot авто та спільний Wi-Fi.",
@@ -203,7 +203,7 @@
     "feedback": "Повідомити про проблему",
     "privacy": "Конфіденційність",
     "footer": "Незалежний проєкт на основі xcertplay з дизайном інтерфейсу від DiAuto. Не пов'язаний з Apple, Stellantis чи Hangsheng. CarPlay і його значок належать Apple Inc.",
-    "supportScope": "Створено спеціально для французьких автомобілів (Peugeot/Citroen) з головними пристроями Hangsheng 'великий синій екран', особливо Citroen C5 X. Інші автомобілі не перевірені та не підтримуються.",
+    "supportScope": "Створено спеціально для головних пристроїв Hangsheng із синім екраном на Android 4.4.3 (API 19) у французьких автомобілях Peugeot/Citroen. Інші автомобілі та версії Android не перевірені й не підтримуються.",
     "authTitle": "Область репозиторію",
     "authText": "Модуль офлайн-автентифікації є приватною власністю й не включений сюди. Публікуються лише методи та інтерфейси, щоб розробники, які розуміють стек, створили реалізацію під власне налаштування. Клієнт автентифікації у джерелах лише демонструє контракт інтерфейсу й не містить реальної ідентичності чи облікових даних. Інсталяційні пакети, ключі підпису та ідентичність аксесуара не поширюються."
   },
@@ -217,7 +217,7 @@
     "download": "Compilar desde el código",
     "install": "Cómo instalar",
     "promise": "Sin jailbreak, adaptador, cuenta ni servidor de autenticación.",
-    "requires": "Instala en el coche, no en el iPhone. La conexión inalámbrica usa el punto de acceso del coche o Wi-Fi Direct (Android 10+). La compatibilidad depende del equipo, firmware e iOS.",
+    "requires": "Se instala en la unidad del coche, no en el iPhone. Dirigido a unidades Hangsheng de pantalla azul con Android 4.4.3 (API 19) en coches franceses Peugeot/Citroen.",
     "gallery": "Una experiencia familiar",
     "captions": [
       "Pantalla principal de JSPLAY con modos de conexión por hotspot del coche y mismo Wi-Fi.",
@@ -255,7 +255,7 @@
     "feedback": "Informar de un problema",
     "privacy": "Privacidad",
     "footer": "Proyecto independiente basado en xcertplay, con diseño de interfaz de DiAuto. Sin afiliación a Apple, Stellantis ni Hangsheng. CarPlay y su icono pertenecen a Apple Inc.",
-    "supportScope": "Diseñado específicamente para coches franceses (Peugeot/Citroen) con unidades Hangsheng de pantalla azul grande, especialmente el Citroen C5 X. Otros vehículos no están probados ni son compatibles.",
+    "supportScope": "Diseñado específicamente para unidades Hangsheng de pantalla azul con Android 4.4.3 (API 19) en coches franceses Peugeot/Citroen. Otros vehículos y versiones de Android no están probados ni son compatibles.",
     "authTitle": "Ámbito del repositorio",
     "authText": "El módulo de autenticación sin conexión es propiedad privada y no se incluye aquí. Solo se publican los métodos y las interfaces, para que los desarrolladores que conocen la pila construyan una implementación adaptada a su entorno. El cliente de autenticación en el código solo ilustra el contrato de la interfaz y no contiene identidad ni credenciales reales. No se distribuyen paquetes de instalación, claves de firma ni identidad de accesorio."
   },
@@ -269,7 +269,7 @@
     "download": "从源码构建",
     "install": "安装方法",
     "promise": "无需越狱、转接盒、账号或认证服务器。",
-    "requires": "请安装在车机上，而非 iPhone 上。无线连接使用车机内置热点或 Wi-Fi Direct（Android 10 及以上）。兼容性取决于车机、固件和 iOS 版本。",
+    "requires": "请安装在车机上，而非 iPhone 上。专为 Android 4.4.3（API 19）航盛大蓝屏车机适配，也就是法系车标致/雪铁龙（标雪）车机。无线连接使用车机热点或同一 WiFi 模式。",
     "gallery": "熟悉的驾乘体验",
     "captions": [
       "JSPLAY 主界面：车机热点与同一 WiFi 两种连接方式。",
@@ -307,7 +307,7 @@
     "feedback": "报告问题",
     "privacy": "隐私",
     "footer": "基于 xcertplay 的独立项目，界面设计源自 DiAuto。与 Apple、Stellantis（标致雪铁龙）及航盛无隶属关系。CarPlay 及其图标归 Apple Inc. 所有。",
-    "supportScope": "本项目专为法系车（标致/雪铁龙）搭载航盛大蓝屏的车机定制适配，重点车型为凡尔赛 C5 X。其他车型未经测试，不在支持范围内。",
+    "supportScope": "专为 Android 4.4.3（API 19）航盛大蓝屏车机适配，即法系车标致/雪铁龙（标雪）车机。其他车型和安卓版本未经测试，不在支持范围内。",
     "authTitle": "仓库范围",
     "authText": "离线认证模块是我们的私有财产，不包含在本仓库中。我们只公开方法与接口，供真正懂开发的朋友做出最适合自己的软件。源码中的认证客户端仅用于演示接口契约，不含任何真实身份或凭据；本仓库不提供安装包、签名密钥或配件凭据。"
   }
