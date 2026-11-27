@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 状态徽章：CarPlay 胶囊形（浅银底） -->
+    <solid android:color="#E9EDF2" />
+    <corners android:radius="20dp" />
+</shape>

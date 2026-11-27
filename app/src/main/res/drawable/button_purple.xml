@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 主按钮：CarPlay 胶囊形（亮银金属渐变，左亮右暗模拟金属光泽） -->
+    <gradient
+        android:angle="0"
+        android:startColor="#E9EDF2"
+        android:centerColor="#B9C0C9"
+        android:endColor="#8F97A1"
+        android:type="linear" />
+    <corners android:radius="48dp" />
+    <stroke android:width="1dp" android:color="#D6DBE1" />
+</shape>

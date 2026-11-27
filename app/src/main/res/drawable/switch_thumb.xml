@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- CarPlay 风格开关滑块：亮银圆点 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#F2F5F8" />
+            <size android:width="32dp" android:height="32dp" />
+        </shape>
+    </item>
+</selector>

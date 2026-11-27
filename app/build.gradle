@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+android {
+    namespace = 'com.shilapi.xcertplay.app'
+    compileSdk = 34
+    buildToolsVersion = '34.0.0'
+
+    defaultConfig {
+        applicationId "com.jsplay.com"
+        minSdk 19
+        targetSdk 28
+        versionCode 62
+        versionName "JSplayV1.62"
+        multiDexEnabled true
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+        // 只保留中英语言资源：BC 的多语言 properties 由 packaging excludes 另行剔除
+        resourceConfigurations += ['zh-rCN', 'zh', 'en']
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+        coreLibraryDesugaringEnabled true
+    }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    // 剔除打进 APK 的无关 Java 资源：BouncyCastle 的 PQC 参数表（~1.2MB）与
+    // 多语言消息文件、META-INF 签名残留。dex 里的死类由 R8 剪。
+    packaging {
+        resources {
+            excludes += [
+                'org/bouncycastle/**',
+                'META-INF/*.version',
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE*',
+                'META-INF/NOTICE*',
+                'kotlin/**/*.kotlin_metadata',
+            ]
+        }
+    }
+
+    // 车机侧载应用（不上 Google Play）：targetSdk 28 是车机兼容性刻意选择，
+    // 关掉 release 构建的 lint 致命拦截（"requires API 31+" 属上架检查）。
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            // R8 剪枝 + 资源压缩：BC 全量 dex（含后量子密码等死代码）剪到实际使用的
+            // 轻量 crypto 子集；反射/JNI 入口已在 proguard-rules.pro 保守 keep。
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                'proguard-rules.pro'
+            // 用 debug keystore 签 release：与已装 debug 版同签名，可直接覆盖安装。
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+dependencies {
+    implementation project(':shared')
+    implementation libs.conscrypt
+    implementation "androidx.multidex:multidex:2.0.1"
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
+}

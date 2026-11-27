@@ -1,0 +1,26 @@
+[versions]
+agp = "7.4.2"
+coreKtx = "1.6.0"
+lifecycleRuntimeKtx = "2.2.0"
+appcompat = "1.1.0"
+junit = "4.13.2"
+bouncycastle = "1.79"
+conscrypt = "2.5.2"
+jmdns = "3.6.3"
+kotlin = "1.9.22"
+robolectric = "4.11.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+bouncycastle = { group = "org.bouncycastle", name = "bcprov-jdk18on", version.ref = "bouncycastle" }
+conscrypt = { group = "org.conscrypt", name = "conscrypt-android", version.ref = "conscrypt" }
+jmdns = { group = "org.jmdns", name = "jmdns", version.ref = "jmdns" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

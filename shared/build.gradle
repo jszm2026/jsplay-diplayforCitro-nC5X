@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+android {
+    namespace = 'com.shilapi.xcertplay.shared'
+    compileSdk = 34
+    buildToolsVersion = '34.0.0'
+
+    defaultConfig {
+        minSdk = 19
+        targetSdk = 34
+        multiDexEnabled true
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments 'APP_PLATFORM=android-19'
+            }
+        }
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    ndkVersion = '25.1.8937393'
+    externalNativeBuild {
+        ndkBuild {
+            path = file('src/main/jni/Android.mk')
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+        coreLibraryDesugaringEnabled true
+    }
+    kotlinOptions {
+        jvmTarget = "11"
+        freeCompilerArgs += "-opt-in=kotlin.ExperimentalStdlibApi"
+    }
+}
+dependencies {
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.4"
+    implementation libs.androidx.core.ktx
+    implementation libs.bouncycastle
+    // JmDNS 3.6.3 vendored as source in src/main/java/javax/jmdns (patched:
+    // SO_REUSEADDR before bind to coexist with the head unit's mdnsd on 5353).
+    // SLF4J API is JmDNS's compile dependency; with no binding on Android it
+    // silently no-ops, which is fine for the vendored copy.
+    implementation "org.slf4j:slf4j-api:1.7.36"
+    testImplementation libs.junit
+    testImplementation "org.robolectric:robolectric:${libs.versions.robolectric.get()}"
+}

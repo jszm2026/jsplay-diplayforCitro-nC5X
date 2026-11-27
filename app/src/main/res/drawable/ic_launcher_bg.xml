@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标背景层：拉丝银横向渐变（与主界面主按钮同款金属渐变） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0"
+        android:startColor="#F2F5F8"
+        android:centerColor="#C4CBD3"
+        android:endColor="#9AA2AB"
+        android:type="linear" />
+</shape>

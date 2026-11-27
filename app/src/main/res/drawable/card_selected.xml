@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中卡片：CarPlay 大 R 角（亮银金属渐变 + 亮描边高亮选中态） -->
+    <gradient
+        android:angle="0"
+        android:startColor="#E9EDF2"
+        android:centerColor="#B9C0C9"
+        android:endColor="#8F97A1"
+        android:type="linear" />
+    <corners android:radius="28dp" />
+    <stroke android:width="2dp" android:color="#F2F5F8" />
+</shape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 窗口根背景：深银纵向渐变 -->
+    <gradient
+        android:angle="270"
+        android:startColor="#33383F"
+        android:centerColor="#22262B"
+        android:endColor="#15171B"
+        android:type="linear" />
+</shape>

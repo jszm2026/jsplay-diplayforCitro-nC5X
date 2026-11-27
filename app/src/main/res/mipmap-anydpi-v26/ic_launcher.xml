@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JSplay 自适应图标（API 26+）：银渐变背景 + 深灰 JS 前景。
+     覆盖 shared 模块 DiPlay 原版紫色前景，手机/新系统上显示同款银色图标。 -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_bg" />
+    <foreground android:drawable="@drawable/ic_launcher_fg" />
+    <monochrome android:drawable="@drawable/ic_launcher_fg" />
+</adaptive-icon>

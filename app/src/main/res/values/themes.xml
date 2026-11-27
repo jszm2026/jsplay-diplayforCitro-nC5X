@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NoActionBar + Fullscreen：无标题栏（否则顶部显示应用名 JSplay）也无状态栏，
+         从启动起 SurfaceView 即占满整屏——视频 1920x720 直接交给 SurfaceFlinger；
+         也免去了进/出视频模式时动态加删 FLAG_FULLSCREEN 触发的窗口重排布。 -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">#FF1B1B1F</item>
+    </style>
+</resources>

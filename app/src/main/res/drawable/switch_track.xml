@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- CarPlay 风格开关轨道：选中亮银、未选深银带描边 -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#B9C0C9" />
+            <corners android:radius="18dp" />
+            <size android:width="72dp" android:height="36dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2E3238" />
+            <corners android:radius="18dp" />
+            <stroke android:width="2dp" android:color="#5B626B" />
+            <size android:width="72dp" android:height="36dp" />
+        </shape>
+    </item>
+</selector>
