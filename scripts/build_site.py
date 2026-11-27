@@ -6,10 +6,10 @@ from html import escape as e
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
 data = json.loads((SITE / 'content.json').read_text())
-BASE = 'https://shihabal3amri.github.io/DiPlay/'
-REPO = 'https://github.com/shihabal3amri/DiPlay'
-RELEASE = REPO + '/releases/tag/v0.2.10'
-DOWNLOAD = REPO + '/releases/download/v0.2.10/DiPlay-0.2.10.apk'
+BASE = 'https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/'
+REPO = 'https://github.com/jszm2026/jsplay-diplayforCitro-nC5X'
+RELEASE = REPO + '/releases'
+DOWNLOAD = REPO + '/releases'
 for lang, d in data.items():
     folder = SITE if lang == 'en' else SITE / lang
     folder.mkdir(exist_ok=True)
