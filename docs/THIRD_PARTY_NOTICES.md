@@ -30,7 +30,7 @@ Gradle dependency declarations and version catalog accompany the source. License
 
 ## Experimental authentication data
 
-Release packages may include an accessory certificate/key pair supplied by the local build/release process under `assets/offline-mfi/identity.pk8` and `assets/offline-mfi/certificate.p7b`. The source repository does not contain these files; tests generate synthetic identities at runtime. This is not an Apple-certified product or an Apple-issued MFi identity, and continued acceptance and suitability for general distribution are unresolved. The separate Android APK-signing key is never distributed.
+The offline authentication module is private property and is not distributed with this source repository. No accessory certificate/key pair, runtime identity, installation package or Android APK-signing key is included. `LocalMfiAuthenticationClient` in the source tree documents the interface contract only; it contains no identity files, and tests generate synthetic identities at runtime. Any identity a developer supplies locally remains their own responsibility. This is not an Apple-certified product or an Apple-issued MFi identity.
 
 ## Download website
 

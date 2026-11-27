@@ -6,6 +6,8 @@
 
 The hardest part, the **Bluetooth handshake**, took nearly two months to solve. Steering-wheel control support for the Citroen C5 X on Hangsheng hardware is already integrated. Audio routing and CarPlay video streaming are still being refined; **TCP currently runs on port 7000**. Contributions toward a smoother port are welcome.
 
+> **Scope of this repository:** The offline authentication module is private property and is **not included** here. We publish the methods and interfaces only, so developers who understand the stack can build an implementation that fits their own vehicle and setup. The `LocalMfiAuthenticationClient` in the source tree is an interface-contract example; it ships with no real identity or credential files, and a working identity must be supplied by the developer. No installation package, signing key or accessory identity is distributed.
+
 > **Support scope:** Purpose-built for French cars (Peugeot/Citroen) with Hangsheng big-blue-screen head units, especially the Citroen C5 X. Other vehicles are untested and unsupported; there are no plans to add brand-specific support.
 
 [Website](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/) · [Build from source](docs/BUILD.md) · [Report a problem](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
