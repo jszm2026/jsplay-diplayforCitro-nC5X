@@ -22,6 +22,8 @@ jobs:
         with:
           packages: platform-tools platforms;android-34 build-tools;34.0.0 ndk;25.1.8937393
       - uses: gradle/actions/setup-gradle@v4
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
       - name: Unit tests and source-only debug build
         run: ./gradlew :shared:testDebugUnitTest :app:testDebugUnitTest :app:lintDebug :app:assembleDebug --stacktrace
       - name: Test reports
