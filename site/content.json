@@ -5,15 +5,15 @@
     "tag": "Independent community project",
     "badge": "PUBLIC PREVIEW",
     "title": "Your iPhone.\nAt home in your car.",
-    "intro": "Maps, music and conversations on your car display. JSPLAY brings wired and wireless CarPlay to compatible Android head units, with the familiar DiAuto interface.",
+    "intro": "JSPLAY is a CarPlay port custom-built for French cars (Peugeot/Citroen) with Hangsheng 'big blue screen' head units. The hardest part - the Bluetooth handshake - took nearly two months to solve, and steering-wheel controls for the Citroen C5 X on Hangsheng hardware are already integrated. Audio routing and CarPlay video streaming are still being refined; TCP currently runs on port 7000. Community contributions toward a smoother port are very welcome.",
     "download": "Download APK",
     "install": "How to install",
     "promise": "No jailbreak, dongle, account or authentication server required.",
     "requires": "Install on the car, not the iPhone. Wireless uses the built-in car hotspot or Wi-Fi Direct (Android 10+). Compatibility depends on the head unit, firmware and iOS version.",
     "gallery": "A familiar drive",
     "captions": [
-      "A clear home screen with aligned wireless and USB controls.",
-      "Display size, performance and connection settings. Screenshots show the English app interface."
+      "The JSPLAY home screen with car-hotspot and same-Wi-Fi connection modes.",
+      "Audio profiles, volume levels and connection settings."
     ],
     "setup": "Install on your car",
     "steps": [
@@ -46,8 +46,8 @@
     "source": "Source code",
     "feedback": "Report an issue",
     "privacy": "Privacy",
-    "footer": "Independent project based on xcertplay, with interface design from DiAuto. Not affiliated with Apple or BYD. CarPlay and its icon belong to Apple Inc.",
-    "supportScope": "These projects focus on BYD cars. They may work on other brands, but other brands are unsupported and there are no plans to add support or fix brand-specific incompatibilities."
+    "footer": "Independent project based on xcertplay, with interface design from DiAuto. Not affiliated with Apple, Stellantis or Hangsheng. CarPlay and its icon belong to Apple Inc.",
+    "supportScope": "Purpose-built for French cars (Peugeot/Citroen) with Hangsheng big-blue-screen head units, especially the Citroen C5 X. Other vehicles are untested and unsupported."
   },
   "ar": {
     "name": "العربية",
@@ -55,15 +55,15 @@
     "tag": "مشروع مجتمعي مستقل",
     "badge": "نسخة تجريبية عامة",
     "title": "آيفونك.\nعلى شاشة سيارتك.",
-    "intro": "خرائطك وموسيقاك ومحادثاتك على شاشة السيارة. يوفّر JSPLAY كار بلاي سلكياً ولاسلكياً لشاشات أندرويد المتوافقة، بواجهة مألوفة من DiAuto.",
+    "intro": "JSPLAY هو منفذ CarPlay مصمم خصيصًا للسيارات الفرنسية (بيجو/سيتروين) المزودة بوحدات هانغشينغ ذات الشاشة الزرقاء الكبيرة. أصعب جزء - مصافحة البلوتوث - استغرق قرابة شهرين لحلها، وقد تم بالفعل دعم التحكم في المقود لسيارة سيتروين C5 X على أجهزة هانغشينغ. لا تزال قنوات الصوت وبث فيديو CarPlay قيد التحسين؛ يعمل TCP حاليًا على المنفذ 7000. نرحب بمساهمات المجتمع لتطوير منفذ أكثر سلاسة.",
     "download": "تنزيل APK",
     "install": "طريقة التثبيت",
     "promise": "لا حاجة إلى جيلبريك أو قطعة خارجية أو حساب أو خادم مصادقة.",
     "requires": "ثبّت التطبيق على شاشة السيارة، وليس الآيفون. يستخدم الاتصال اللاسلكي نقطة اتصال السيارة أو Wi-Fi Direct على أندرويد 10 فأحدث. يعتمد التوافق على الشاشة ونظامها وإصدار iOS.",
     "gallery": "تجربة مألوفة",
     "captions": [
-      "واجهة واضحة مع محاذاة أزرار الاتصال اللاسلكي وUSB.",
-      "إعدادات حجم العرض والأداء والاتصال. الصور تعرض واجهة التطبيق الإنجليزية."
+      "الشاشة الرئيسية لـ JSPLAY مع وضعي اتصال بنقطة hotspot للسيارة وsame-Wi-Fi.",
+      "ملفات الصوت ومستويات الصوت وإعدادات الاتصال."
     ],
     "setup": "التثبيت على شاشة السيارة",
     "steps": [
@@ -96,8 +96,8 @@
     "source": "الكود المصدري",
     "feedback": "الإبلاغ عن مشكلة",
     "privacy": "الخصوصية",
-    "footer": "مشروع مستقل مبني على xcertplay وبتصميم واجهة من DiAuto. غير تابع لـ Apple أو BYD. كار بلاي وأيقونته ملك لشركة Apple.",
-    "supportScope": "يركز هذان المشروعان على سيارات BYD. قد يعملان على علامات أخرى، لكنها غير مدعومة، ولا توجد خطط لإضافة دعم لها أو إصلاح مشكلات التوافق الخاصة بها."
+    "footer": "مشروع مستقل مبني على xcertplay وبتصميم واجهة من DiAuto. غير تابع لـ Apple أو Stellantis أو هانغشينغ. كار بلاي وأيقونته ملك لشركة Apple.",
+    "supportScope": "مصمم خصيصًا للسيارات الفرنسية (بيجو/سيتروين) المزودة بوحدات هانغشينغ ذات الشاشة الزرقاء الكبيرة، وخاصة سيتروين C5 X. المركبات الأخرى غير مختبرة وغير مدعومة."
   },
   "ru": {
     "name": "Русский",
@@ -105,15 +105,15 @@
     "tag": "Независимый проект сообщества",
     "badge": "ОТКРЫТОЕ ТЕСТИРОВАНИЕ",
     "title": "Ваш iPhone.\nНа экране автомобиля.",
-    "intro": "Карты, музыка и общение на экране автомобиля. JSPLAY добавляет проводной и беспроводной CarPlay на совместимые головные устройства Android со знакомым интерфейсом DiAuto.",
+    "intro": "JSPLAY - это порт CarPlay, созданный специально для французских автомобилей (Peugeot/Citroen) с головными устройствами Hangsheng 'большой синий экран'. Самая сложная часть - рукопожатие Bluetooth - заняла почти два месяца, и управление на руле для Citroen C5 X на оборудовании Hangsheng уже реализовано. Аудиоканалы и видеопоток CarPlay всё ещё улучшаются; TCP сейчас работает на порту 7000. Приветствуются вклад сообщества в создание более плавного порта.",
     "download": "Скачать APK",
     "install": "Как установить",
     "promise": "Без джейлбрейка, адаптера, аккаунта и сервера аутентификации.",
     "requires": "Устанавливайте на головное устройство, а не на iPhone. Беспроводное подключение использует точку доступа автомобиля или Wi-Fi Direct (Android 10+). Совместимость зависит от устройства, прошивки и iOS.",
     "gallery": "Знакомый интерфейс",
     "captions": [
-      "Главный экран с выровненными элементами беспроводного и USB-подключения.",
-      "Размер интерфейса, производительность и подключение. На снимках — английский интерфейс приложения."
+      "Главный экран JSPLAY с режимами подключения через hotspot автомобиля и общий Wi-Fi.",
+      "Аудиопрофили, уровни громкости и настройки подключения."
     ],
     "setup": "Установка в автомобиле",
     "steps": [
@@ -146,8 +146,8 @@
     "source": "Исходный код",
     "feedback": "Сообщить о проблеме",
     "privacy": "Конфиденциальность",
-    "footer": "Независимый проект на базе xcertplay с дизайном интерфейса DiAuto. Не связан с Apple или BYD. CarPlay и его значок принадлежат Apple Inc.",
-    "supportScope": "Эти проекты ориентированы на автомобили BYD. На других марках они могут работать, но другие марки не поддерживаются; добавление поддержки и исправление несовместимости с ними не планируются."
+    "footer": "Независимый проект на базе xcertplay с дизайном интерфейса DiAuto. Не связан с Apple, Stellantis или Hangsheng. CarPlay и его значок принадлежат Apple Inc.",
+    "supportScope": "Создан специально для французских автомобилей (Peugeot/Citroen) с головными устройствами Hangsheng 'большой синий экран', особенно Citroen C5 X. Другие автомобили не проверены и не поддерживаются."
   },
   "uk": {
     "name": "Українська",
@@ -155,15 +155,15 @@
     "tag": "Незалежний проєкт спільноти",
     "badge": "ПОПЕРЕДНЯ ВЕРСІЯ",
     "title": "Ваш iPhone.\nЯк удома у вашому авто.",
-    "intro": "Карти, музика й розмови на екрані автомобіля. JSPLAY додає дротовий і бездротовий CarPlay на сумісні головні пристрої Android зі звичним інтерфейсом DiAuto.",
+    "intro": "JSPLAY - це порт CarPlay, створений спеціально для французьких автомобілів (Peugeot/Citroen) з головними пристроями Hangsheng 'великий синій екран'. Найскладніша частина - handshake Bluetooth - зайняла майже два місяці, і керування на кермі для Citroen C5 X на обладнанні Hangsheng уже реалізовано. Аудіоканали та відеопотік CarPlay ще вдосконалюються; TCP зараз працює на порту 7000. Вітаємо внески спільноти для створення плавнішого порту.",
     "download": "Завантажити APK",
     "install": "Як встановити",
     "promise": "Без джейлбрейка, адаптера, облікового запису й сервера автентифікації.",
     "requires": "Встановлюйте на автомобіль, а не на iPhone. Бездротове підключення працює через вбудовану точку доступу автомобіля або Wi-Fi Direct (Android 10+). Сумісність залежить від головного пристрою, прошивки й версії iOS.",
     "gallery": "Звична поїздка",
     "captions": [
-      "Зрозумілий головний екран із вирівняними кнопками бездротового й USB-підключення.",
-      "Налаштування розміру екрана, продуктивності й підключення. На знімках англійський інтерфейс застосунку."
+      "Головний екран JSPLAY з режимами підключення через hotspot авто та спільний Wi-Fi.",
+      "Аудіопрофілі, рівні гучності та налаштування підключення."
     ],
     "setup": "Встановлення в автомобілі",
     "steps": [
@@ -196,8 +196,8 @@
     "source": "Вихідний код",
     "feedback": "Повідомити про проблему",
     "privacy": "Конфіденційність",
-    "footer": "Незалежний проєкт на основі xcertplay з дизайном інтерфейсу від DiAuto. Не пов’язаний з Apple чи BYD. CarPlay і його значок належать Apple Inc.",
-    "supportScope": "Ці проєкти зосереджені на автомобілях BYD. Вони можуть працювати й з іншими марками, але інші марки не підтримуються, і планів додавати їхню підтримку чи виправляти несумісності з ними немає."
+    "footer": "Незалежний проєкт на основі xcertplay з дизайном інтерфейсу від DiAuto. Не пов'язаний з Apple, Stellantis чи Hangsheng. CarPlay і його значок належать Apple Inc.",
+    "supportScope": "Створено спеціально для французьких автомобілів (Peugeot/Citroen) з головними пристроями Hangsheng 'великий синій екран', особливо Citroen C5 X. Інші автомобілі не перевірені та не підтримуються."
   },
   "es": {
     "name": "Español",
@@ -205,15 +205,15 @@
     "tag": "Proyecto comunitario independiente",
     "badge": "VERSIÓN PRELIMINAR PÚBLICA",
     "title": "Tu iPhone.\nEn la pantalla de tu coche.",
-    "intro": "Mapas, música y conversaciones en la pantalla del coche. JSPLAY ofrece CarPlay por USB e inalámbrico en unidades Android compatibles, con la interfaz familiar de DiAuto.",
+    "intro": "JSPLAY es un puerto de CarPlay diseñado específicamente para coches franceses (Peugeot/Citroen) con unidades Hangsheng de 'pantalla azul grande'. La parte más difícil - el handshake de Bluetooth - tomó casi dos meses en resolverse, y los controles del volante para el Citroen C5 X con hardware Hangsheng ya están integrados. Los canales de audio y el streaming de vídeo de CarPlay siguen en optimización; TCP funciona actualmente en el puerto 7000. Se agradecen las contribuciones de la comunidad para lograr un puerto más fluido.",
     "download": "Descargar APK",
     "install": "Cómo instalar",
     "promise": "Sin jailbreak, adaptador, cuenta ni servidor de autenticación.",
     "requires": "Instala en el coche, no en el iPhone. La conexión inalámbrica usa el punto de acceso del coche o Wi-Fi Direct (Android 10+). La compatibilidad depende del equipo, firmware e iOS.",
     "gallery": "Una experiencia familiar",
     "captions": [
-      "Pantalla de inicio con los controles inalámbricos y USB alineados.",
-      "Tamaño de interfaz, rendimiento y conexión. Las capturas muestran la app en inglés."
+      "Pantalla principal de JSPLAY con modos de conexión por hotspot del coche y mismo Wi-Fi.",
+      "Perfiles de audio, niveles de volumen y ajustes de conexión."
     ],
     "setup": "Instalar en el coche",
     "steps": [
@@ -246,8 +246,8 @@
     "source": "Código fuente",
     "feedback": "Informar de un problema",
     "privacy": "Privacidad",
-    "footer": "Proyecto independiente basado en xcertplay, con diseño de interfaz de DiAuto. Sin afiliación a Apple ni BYD. CarPlay y su icono pertenecen a Apple Inc.",
-    "supportScope": "Estos proyectos se centran en coches BYD. Pueden funcionar en otras marcas, pero no se ofrece soporte para ellas ni hay planes de añadirlo o corregir incompatibilidades específicas."
+    "footer": "Proyecto independiente basado en xcertplay, con diseño de interfaz de DiAuto. Sin afiliación a Apple, Stellantis ni Hangsheng. CarPlay y su icono pertenecen a Apple Inc.",
+    "supportScope": "Diseñado específicamente para coches franceses (Peugeot/Citroen) con unidades Hangsheng de pantalla azul grande, especialmente el Citroen C5 X. Otros vehículos no están probados ni son compatibles."
   },
   "zh-Hans": {
     "name": "简体中文",
@@ -255,15 +255,15 @@
     "tag": "独立社区项目",
     "badge": "公开预览版",
     "title": "你的 iPhone。\n你的车载屏幕。",
-    "intro": "在车载屏幕上使用地图、音乐和通话。JSPLAY 为兼容的安卓车机带来有线和无线 CarPlay，采用熟悉的 DiAuto 界面。",
+    "intro": "JSPLAY 是专为法系车（标致/雪铁龙）航盛大蓝屏车机定制适配的 CarPlay 项目。最棘手的蓝牙握手问题耗时近两个月攻关解决；凡尔赛（C5 X）航盛方向盘按键适配也已写入。音频通道和 CarPlay 视频流仍在持续优化，目前 TCP 走 7000 端口。欢迎大家一起参与，做出更流畅的端口实现。",
     "download": "下载 APK",
     "install": "安装方法",
     "promise": "无需越狱、转接盒、账号或认证服务器。",
     "requires": "请安装在车机上，而非 iPhone 上。无线连接使用车机内置热点或 Wi-Fi Direct（Android 10 及以上）。兼容性取决于车机、固件和 iOS 版本。",
     "gallery": "熟悉的驾乘体验",
     "captions": [
-      "无线和 USB 连接控件整齐对齐的主界面。",
-      "界面大小、性能和连接设置。截图展示的是英文应用界面。"
+      "JSPLAY 主界面：车机热点与同一 WiFi 两种连接方式。",
+      "设置与功能：音频配置、音量与连接选项。"
     ],
     "setup": "安装到车机",
     "steps": [
@@ -296,7 +296,7 @@
     "source": "源代码",
     "feedback": "报告问题",
     "privacy": "隐私",
-    "footer": "基于 xcertplay 的独立项目，界面设计源自 DiAuto。与 Apple 或比亚迪无隶属关系。CarPlay 及其图标归 Apple Inc. 所有。",
-    "supportScope": "这些项目专注于比亚迪汽车。它们可能在其他品牌上运行，但其他品牌不在支持范围内，也没有增加支持或修复其品牌特定兼容性问题的计划。"
+    "footer": "基于 xcertplay 的独立项目，界面设计源自 DiAuto。与 Apple、Stellantis（标致雪铁龙）及航盛无隶属关系。CarPlay 及其图标归 Apple Inc. 所有。",
+    "supportScope": "本项目专为法系车（标致/雪铁龙）搭载航盛大蓝屏的车机定制适配，重点车型为凡尔赛 C5 X。其他车型未经测试，不在支持范围内。"
   }
 }

@@ -1,10 +1,12 @@
-# DiPlay
+# JSPLAY
 
-为兼容的比亚迪安卓车机提供有线及无线 CarPlay，采用 DiAuto 风格界面。
+专为法系车（标致/雪铁龙）搭载航盛大蓝屏的车机定制适配，提供有线及无线 CarPlay，采用 DiAuto 风格界面。
 
-> 这些项目专注于比亚迪汽车。它们可能在其他品牌上运行，但其他品牌不在支持范围内，也没有增加支持或修复其品牌特定兼容性问题的计划。
+最棘手的**蓝牙握手**问题耗时近两个月攻关解决；凡尔赛（C5 X）航盛方向盘按键适配也已写入。音频通道和 CarPlay 视频流仍在持续优化，目前 **TCP 走 7000 端口**。欢迎大家一起参与，做出更流畅的端口实现。
 
-[下载与中文网站](https://shihabal3amri.github.io/DiPlay/zh-Hans/) · [完整说明](README.md) · [报告问题](https://github.com/shihabal3amri/DiPlay/issues/new/choose)
+> 本项目专为法系车（标致/雪铁龙）搭载航盛大蓝屏的车机定制适配，重点车型为凡尔赛 C5 X。其他车型未经测试，不在支持范围内，也没有增加品牌适配的计划。
+
+[下载与中文网站](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/zh-Hans/) · [完整说明](README.md) · [报告问题](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
 
 0.2.9 为公开预览版，未经 Apple 认证。请安装在车机上，而非 iPhone。无需越狱、转接盒或认证服务器。无线连接支持车载热点或 Wi-Fi Direct（后者需要 Android 10 或更高版本）。
 

@@ -1,14 +1,16 @@
-# DiPlay（本地修改版）
+# JSPLAY（本地修改版）
 
 > 说明：本仓库是 jszm2026 基于 [DiPlay](https://github.com/shihabal3amri/DiPlay) 与 [xcertplay](https://github.com/shilapi/xcertplay) 的本地修改版本。上游代码分别采用 AGPL-3.0 / GPL-3.0 许可证，修改和再分发请遵守原许可证并保留署名，详见 [第三方声明](docs/THIRD_PARTY_NOTICES.md)。本仓库不包含任何 accessory 凭据、Android 签名密钥、APK 或设备配对数据。
 
-**CarPlay for compatible BYD Android head units.** Wired and wireless, with the familiar DiAuto interface. Independent app: `com.shihab.diplay`.
+**A CarPlay port custom-built for French cars (Peugeot/Citroen) with Hangsheng "big blue screen" head units** - especially the Citroen C5 X. Wired and wireless, with the familiar DiAuto interface. Independent app: `com.shihab.diplay`.
 
-> **BYD support scope:** These projects focus on BYD cars. They may work on other brands, but other brands are unsupported and there are no plans to add support or fix brand-specific incompatibilities.
+The hardest part, the **Bluetooth handshake**, took nearly two months to solve. Steering-wheel control support for the Citroen C5 X on Hangsheng hardware is already integrated. Audio routing and CarPlay video streaming are still being refined; **TCP currently runs on port 7000**. Contributions toward a smoother port are welcome.
 
-[Download & website](https://shihabal3amri.github.io/DiPlay/) · [Release](https://github.com/shihabal3amri/DiPlay/releases/tag/v0.2.10) · [Report a problem](https://github.com/shihabal3amri/DiPlay/issues/new/choose)
+> **Support scope:** Purpose-built for French cars (Peugeot/Citroen) with Hangsheng big-blue-screen head units, especially the Citroen C5 X. Other vehicles are untested and unsupported; there are no plans to add brand-specific support.
 
-![DiPlay home](site/assets/home.png)
+[Download & website](https://jszm2026.github.io/jsplay-diplayforCitro-nC5X/) · [Releases](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/releases) · [Report a problem](https://github.com/jszm2026/jsplay-diplayforCitro-nC5X/issues/new/choose)
+
+![JSPLAY home](site/assets/home.png)
 
 ## 0.2.10 — public preview
 
